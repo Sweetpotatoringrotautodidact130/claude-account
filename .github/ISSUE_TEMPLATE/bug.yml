@@ -1,0 +1,62 @@
+name: Bug report
+description: Report reproducible incorrect behavior
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Never paste credentials, tokens, API keys, or `.credentials.json`.
+
+  - type: input
+    id: version
+    attributes:
+      label: claude-account version
+      placeholder: "0.1.0"
+    validations:
+      required: true
+
+  - type: input
+    id: claude-version
+    attributes:
+      label: Claude Code version
+      placeholder: "2.x.x"
+    validations:
+      required: true
+
+  - type: input
+    id: distribution
+    attributes:
+      label: Linux distribution
+      placeholder: "Ubuntu 24.04"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Sensitive data
+      options:
+        - label: I removed all credentials, tokens, API keys, and personal data.
+          required: true
